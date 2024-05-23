@@ -1,4 +1,4 @@
-# Query-SQL-database, NBA theme (Justin, Kevin)
+# SQL-database, NBA theme (Justin, Kevin)
 
 - other file contains Schema SQL, and Query SQL 
 - NBA games are simulated fictionally for simplicity sake
@@ -25,3 +25,27 @@
   - Columns: referee id, referee name, game id
  
 - Actual tables are stored within the Schema and a seperate google doc for easier maintenance
+
+
+## Query SQL operation examples
+
+- __Filtering of Data__
+     - Find who scored over X points in a game
+     - Useful for finding top performing players who might be potential candidate for the all-star game
+      
+- __Sorting of Data__
+     - Find what conference each team belongs to
+     - Useful for sorting each team in their respective conference west/east finding who plays against who
+   
+- __Aggregation of Data__
+     - Find the average points scored by a team in match
+     - Useful for finding what team(s) are the best performers for rankings
+         - __Grouping Data__
+            -  Find average height and weight of players by position
+            -  Useful for finding the typical physical characterisitcs in a given role
+          
+- __Joining Record From Different Tables__
+     - Find players names along with their team and who coaches them
+     - Useful for finding team composition and who leads them
+   
+  
