@@ -45,7 +45,7 @@
             -  Useful for finding the typical physical characterisitcs in a given role
           
 - __Joining Record From Different Tables__
-     - Find players names along with their team and who coaches them
+     - Find players names along with their team, city, stadium, and who coaches them
      - Useful for finding team composition and who leads them
    
   
