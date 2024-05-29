@@ -12,11 +12,12 @@ join Conferences c on t.conference_id = c.conference_id
 order by c.conference_name, t.team_name;
 
 --Aggregation and grouping of data by finding the avg points scored in a match and finding the avg height/weight by position
-select t.team_name, AVG(s.points) as avg_points
-from Teams t
-join Players p on t.team_id = p.team_id
-join Statistics s on p.player_id = s.player_id
-group by t.team_name;
+SELECT t.team_name, CEILING(AVG(s.points)) AS avg_points
+FROM Teams t
+JOIN Players p ON t.team_id = p.team_id
+JOIN Statistics s ON p.player_id = s.player_id
+GROUP BY t.team_name;
+
 
 select p.position, AVG(p.height) as avg_height, AVG(p.weight) as avg_weight
 from Players p
