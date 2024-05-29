@@ -3,7 +3,7 @@
 - other file contains Schema SQL, and Query SQL 
 - NBA games are simulated fictionally for simplicity sake
   
-## Concept Ideas
+## Concept Table Ideas
 
 - __Teams: Contains information about NBA teams.__
     - Columns: team id, team name, city, division id, conference id
